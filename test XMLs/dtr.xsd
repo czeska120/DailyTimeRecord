@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="employees">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="employee" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="startOfWeekDate">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="date" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="isRest" type="xs:boolean"/>
+													<xs:element name="isPresent" type="xs:boolean"/>
+													<xs:element name="startTime" type="xs:time"/>
+													<xs:element name="endTime" type="xs:time"/>
+													<xs:element name="renderedHours" type="xs:integer"/>
+													<xs:element name="otHours" type="xs:integer"/>
+												</xs:sequence>
+												<xs:attribute name="day" type="xs:date"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="date" type="xs:date"/>
+								</xs:complexType> 
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:integer"/>
+					</xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

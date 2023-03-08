@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dtr.xsd">
+		<employee id="1111">
+			<startOfWeekDate date="2022-06-12">
+				<date day="2022-06-13">
+					<isRest>1</isRest>
+					<isPresent>0</isPresent>
+					<startTime>00:00:00</startTime>
+					<endTime>00:00:00</endTime>
+					<renderedHours>0</renderedHours>
+					<otHours>0</otHours>
+				</date>
+				<date day="2022-06-14">
+					<isRest>0</isRest>
+					<isPresent>0</isPresent>
+					<startTime>00:00:00</startTime>
+					<endTime>00:00:00</endTime>
+					<renderedHours>0</renderedHours>
+					<otHours>0</otHours>
+				</date>
+				<date day="2022-06-15">
+					<isRest>0</isRest>
+					<isPresent>1</isPresent>
+					<startTime>09:00:00</startTime>
+					<endTime>18:00:00</endTime>
+					<renderedHours>8</renderedHours>
+					<otHours>0</otHours>
+				</date>
+				<date day="2022-06-16">
+					<isRest>0</isRest>
+					<isPresent>1</isPresent>
+					<startTime>09:00:00</startTime>
+					<endTime>18:00:00</endTime>
+					<renderedHours>8</renderedHours>
+					<otHours>0</otHours>
+				</date>
+				<date day="2022-06-17">
+					<isRest>0</isRest>
+					<isPresent>1</isPresent>
+					<startTime>09:00:00</startTime>
+					<endTime>18:00:00</endTime>
+					<renderedHours>8</renderedHours>
+					<otHours>0</otHours>
+				</date>
+				<date day="2022-06-18">
+					<isRest>0</isRest>
+					<isPresent>1</isPresent>
+					<startTime>09:00:00</startTime>
+					<endTime>18:00:00</endTime>
+					<renderedHours>8</renderedHours>
+					<otHours>0</otHours>
+				</date>
+			</startOfWeekDate>
+		</employee>	
+	</employees>
